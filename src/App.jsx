@@ -10,10 +10,10 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/cuaca" element={<Cuaca />} />
-        <Route path="/portofolio" element={<Portofolio />} />
+        <Route path="/react-pertamaku/" element={<Home />} />
+        <Route path="/react-pertamaku/about/" element={<About />} />
+        <Route path="/react-pertamaku/cuaca/" element={<Cuaca />} />
+        <Route path="/react-pertamaku/portofolio/" element={<Portofolio />} />
       </Routes>
     </BrowserRouter>
   )

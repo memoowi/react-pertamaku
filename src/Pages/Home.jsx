@@ -30,13 +30,13 @@ export default function Home() {
         Home Page
       </h1>
       <div className="flex gap-8 justify-center my-6">
-        <HyperLink to="/about">
+        <HyperLink to="/react-pertamaku/about/">
           <p>Go to About</p>
         </HyperLink>
-        <HyperLink to="/cuaca">
+        <HyperLink to="/react-pertamaku/cuaca/">
           <p>Go to Cuaca</p>
         </HyperLink>
-        <HyperLink to="/portofolio">
+        <HyperLink to="/react-pertamaku/portofolio/">
           <p>Go to Portofolio</p>
         </HyperLink>
       </div>

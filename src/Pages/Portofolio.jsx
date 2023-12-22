@@ -8,9 +8,9 @@ export default function Portofolio() {
         setShow(!show);
     }
     const portoGambar = [
-      "/images/porto1.png",
-      "/images/porto2.png",
-      "/images/porto3.png",
+      "/react-pertamaku/images/porto1.png",
+      "/react-pertamaku/images/porto2.png",
+      "/react-pertamaku/images/porto3.png",
     ]
   return (
     <div>
@@ -164,7 +164,7 @@ export default function Portofolio() {
           </div>
           <div className="col-span-12 -order-1 md:order-1 md:col-span-6 p-20 md:p-28">
             <div className="rounded-full border-8 hover:scale-110 overflow-hidden w-fit">
-              <img src="images/hero.png" alt="Misbachul" />
+              <img src="/react-pertamaku/images/hero.png" alt="Misbachul" />
             </div>
           </div>
         </div>
